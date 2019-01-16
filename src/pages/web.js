@@ -7,11 +7,11 @@ import pic08 from '../assets/images/pic08.jpg'
 import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
 
-const Elements = (props) => (
+const Web = (props) => (
     <Layout>
         <Helmet>
-            <title>Elements - Forty by HTML5 UP</title>
-            <meta name="description" content="Elements Page" />
+            <title>Web</title>
+            <meta name="description" content="Professional Web Design & Web Development in Philadelphia" />
         </Helmet>
 
         <div id="main" className="alt">
@@ -19,7 +19,7 @@ const Elements = (props) => (
             <section id="one">
                 <div className="inner">
                     <header className="major">
-                        <h1>Elements</h1>
+                        <h1>Web</h1>
                     </header>
 
                     <h2 id="content">Sample Content</h2>
@@ -49,7 +49,7 @@ const Elements = (props) => (
 
                     <hr className="major" />
 
-                    <h2 id="elements">Elements</h2>
+                    <h2 id="photography">Web</h2>
                     <div className="grid-wrapper">
                         <div className="col-6">
 
@@ -419,4 +419,4 @@ const Elements = (props) => (
     </Layout>
 )
 
-export default Elements
+export default Web

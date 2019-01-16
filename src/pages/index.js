@@ -17,9 +17,9 @@ class HomeIndex extends React.Component {
         return (
             <Layout>
                 <Helmet
-                    title="Gatsby Starter - Forty"
+                    title="Dyverse Productions"
                     meta={[
-                        { name: 'description', content: 'Sample' },
+                        { name: 'description', content: 'Dyverse Productions - Photography and Web Development' },
                         { name: 'keywords', content: 'sample, something' },
                     ]}
                 >
@@ -31,33 +31,33 @@ class HomeIndex extends React.Component {
                     <section id="one" className="tiles">
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
-                                <h3>Aliquam</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <h3>Photo</h3>
+                                <p>we take pretty pictures</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/photo" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
-                                <h3>Tempus</h3>
-                                <p>feugiat amet tempus</p>
+                                <h3>Web</h3>
+                                <p>design -> develop -> deploy</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/web" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
-                                <h3>Magna</h3>
-                                <p>Lorem etiam nullam</p>
+                                <h3>Who</h3>
+                                <p>what, where, when, why</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/about" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic04})`}}>
                             <header className="major">
-                                <h3>Ipsum</h3>
-                                <p>Nisl sed aliquam</p>
+                                <h3>Contact</h3>
+                                <p>reach out to us</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="#contact" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic05})`}}>
+                        {/* <article style={{backgroundImage: `url(${pic05})`}}>
                             <header className="major">
                                 <h3>Consequat</h3>
                                 <p>Ipsum dolor sit amet</p>
@@ -81,7 +81,7 @@ class HomeIndex extends React.Component {
                             <ul className="actions">
                                 <li><Link to="/landing" className="button next">Get Started</Link></li>
                             </ul>
-                        </div>
+                        </div> */}
                     </section>
                 </div>
 
